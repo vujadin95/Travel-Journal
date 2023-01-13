@@ -5,7 +5,9 @@ import "../destination.css";
 function Destination(props) {
   return (
     <section className="destination">
-      <img src={props.location.imageUrl} className="destination-img" />
+      <div className="destination-img">
+        <img src={props.location.imageUrl} />
+      </div>
       <div className="destination-desc">
         <div className="location-container">
           <FaMapMarkerAlt className="location-icon" />

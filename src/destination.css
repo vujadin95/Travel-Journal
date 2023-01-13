@@ -9,10 +9,15 @@
 
 
 .destination-img {
-  min-width: 125px;
-  height: 168px;
+  min-width: 30%;
+}
+
+.destination-img>img {
+  height: 220px;
+  width: 100%;
   object-fit: cover;
   border-radius: 5px;
+  display: block;
 }
 
 .destination-desc {
@@ -36,11 +41,13 @@
   text-transform: uppercase;
   margin-left: 0.4em;
   margin-right: 1.15em;
+  letter-spacing: 0.17em;
 }
 
 .destination-url {
   font-size: 0.64rem;
   color: #918E9B;
+  text-underline-offset: 2px;
 }
 
 .location-title {
@@ -58,6 +65,40 @@
 
 .description {
   font-size: 0.64rem;
+}
+
+@media(width < 550px) {
+  .destination-img>img {
+    height: 180px;
+  }
+}
+
+@media(width < 450px) {
+  .location-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0.28em 0;
+  }
+}
+
+@media (width < 400px) {
+  .destination {
+    flex-direction: column;
+  }
+
+  .destination-img {
+    width: 100%;
+  }
+
+  .destination-img>img {
+    height: 250px;
+  }
+
+  .destination-desc {
+    margin: 0;
+    padding-top: 1em;
+  }
 }
 
 /* styling the Destination component */

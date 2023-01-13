@@ -11,6 +11,7 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   max-width: 720px;
+  min-width: 300px;
   margin: 0 auto;
   background-color: #FFFFFF;
   border: 1px solid #c2bebe;
@@ -41,6 +42,14 @@ header {
 main {
   padding: 30px 40px;
 }
+
+@media(width < 500px) {
+  main {
+    padding: 20px 30px;
+  }
+}
+
+
 
 img {
   width: 300px;
