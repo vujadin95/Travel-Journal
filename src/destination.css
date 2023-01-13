@@ -1,0 +1,63 @@
+/* styling the Destination component */
+.destination {
+  display: flex;
+  align-items: center;
+  color: #2B283A;
+  padding: 18px 0;
+  border-bottom: 1px solid #c2bebe;
+}
+
+
+.destination-img {
+  min-width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.destination-desc {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon {
+  color: #F55A5A;
+  font-size: 10px;
+}
+
+.location {
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  margin-left: 0.4em;
+  margin-right: 1.15em;
+}
+
+.destination-url {
+  font-size: 0.64rem;
+  color: #918E9B;
+}
+
+.location-title {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 0.28em 0;
+}
+
+.visiting-date {
+  font-size: 0.64rem;
+  font-weight: 700;
+  margin-bottom: 0.9em;
+}
+
+.description {
+  font-size: 0.64rem;
+}
+
+/* styling the Destination component */
